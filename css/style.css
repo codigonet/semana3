@@ -1,0 +1,40 @@
+html, body{
+  padding: 0px;
+  margin: 0px;
+}
+
+.row{
+  clear: both;
+}
+
+.header{
+  text-transform: uppercase;
+  padding: 100px 50px;
+  background-color: lightgreen;
+  color: white;
+  text-align: center;
+}
+
+.col-sm-4{
+  width: 33%;
+  box-sizing: border-box;
+  padding: 5px;
+  display: table-cell;
+}
+
+.img-responsive{
+  max-width: 100%;
+}
+
+@media (max-width: 480px) {
+  .col-sm-4{
+    width: 100%;
+    float: left;
+  }
+
+  .header{
+    padding: 50px 10px;
+    display: none;
+  }
+
+}
